@@ -11,7 +11,6 @@ const changeContent = (array, value) => {
         }
     })
 }
-
 tabButtons.forEach((tabButton) => {
     tabButton.addEventListener('click', (event) => {
         const dataValue = tabButton.dataset.tabsHandler
