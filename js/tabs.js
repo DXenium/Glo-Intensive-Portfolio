@@ -13,15 +13,6 @@ const changeContent = (array, value) => {
         }
     })
 }
-/*const changeTitle = (array) => {
-    array.forEach(item => {
-        if (!item.classList.contains('hidden')) {
-            document.title = item.textContent
-        }
-    });
-}
-
-changeTitle(tabTitle)*/
 
 tabButtons.forEach((tabButton, index) => {
     tabButton.addEventListener('click', (event) => {
